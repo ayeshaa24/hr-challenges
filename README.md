@@ -1,2 +1,2 @@
-# hackerrank-challenges
-Answers for hacker rank challenges.
+# hr-challenges
+Answers for HackerRank challenges.
