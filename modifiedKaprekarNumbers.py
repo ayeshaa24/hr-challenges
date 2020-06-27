@@ -2,12 +2,13 @@ def kaprekarNumbers(p, q):
     ans = []
     for i in range(p, q+1):
         n = str(i * i)
-        d = len(str(n))
+        d = len(n)
+        half = d // 2
         if d > 1:
-            l = int(n[:d//2])
+            l = int(n[:half])
         else:
             l = 0
-        r = int(n[d//2:])
+        r = int(n[half:])
         if l + r == i:
             ans.append(i)
     if len(ans) > 0:

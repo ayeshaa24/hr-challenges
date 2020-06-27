@@ -3,6 +3,8 @@ Answers for HackerRank challenges.
 
 ## Easy:
 Cut The Sticks
+Modified Kaprekar Numbers
+Halloween Sale
 
 ## Medium:
 Non-Divisible Sets
@@ -14,5 +16,7 @@ Encryption
 - The Grid Search: *slicing*
 - Cut The Sticks: slicing, sorting, counting
 - Encryption: slicing, ceil
+- Modified Kaprekar Numbers: slicing, counting
+- Halloween Sale: counting
 ## Modulus:
 - Non-Divisible Sets
