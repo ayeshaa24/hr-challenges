@@ -10,6 +10,7 @@ Halloween Sale
 Non-Divisible Sets
 The Grid Search
 Encryption
+The Time In Words
 
 # Topics:
 ## Algorithms:
@@ -18,5 +19,6 @@ Encryption
 - Encryption: slicing, ceil
 - Modified Kaprekar Numbers: slicing, counting
 - Halloween Sale: counting
+- The Time In Words: if, replace, time, logic shortcuts...
 ## Modulus:
 - Non-Divisible Sets
