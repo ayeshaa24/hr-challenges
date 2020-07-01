@@ -7,6 +7,7 @@ Modified Kaprekar Numbers
 Halloween Sale
 Lisa's Workbook
 Flatland Space Stations
+Fair Rations
 
 ## Medium:
 Non-Divisible Sets
@@ -26,3 +27,4 @@ The Time In Words
 - Flatland Space Stations: counting
 ## Modulus:
 - Non-Divisible Sets
+- Fair Rations: even/odd
