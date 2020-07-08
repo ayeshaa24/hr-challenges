@@ -9,6 +9,7 @@ Lisa's Workbook
 Flatland Space Stations
 Fair Rations
 Happy Ladybugs
+Ransom Note
 
 ## Medium:
 Non-Divisible Sets
@@ -27,6 +28,8 @@ The Time In Words
 - Lisa's workbook: loops, counting
 - Flatland Space Stations: counting
 - Happy Ladybugs: counting, checking order
+## Dictionaries
+- Ransom Note: defaultdict, counting
 ## Modulus:
 - Non-Divisible Sets
 - Fair Rations: even/odd
