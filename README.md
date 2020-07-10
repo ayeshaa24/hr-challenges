@@ -17,6 +17,7 @@ Non-Divisible Sets
 The Grid Search
 Encryption
 The Time In Words
+Sherlock And Anagrams
 
 # Topics:
 ## Algorithms:
@@ -29,9 +30,12 @@ The Time In Words
 - Lisa's workbook: loops, counting
 - Flatland Space Stations: counting
 - Happy Ladybugs: counting, checking order
+
 ## Interview: Dictionaries
 - Ransom Note: defaultdict, counting
 - Two Strings: sets...?
+- Sherlock And Anagrams: dictionaries, counting, tuples/sorted, anagrams
+
 ## Modulus:
 - Non-Divisible Sets
 - Fair Rations: even/odd
