@@ -18,6 +18,8 @@ The Grid Search
 Encryption
 The Time In Words
 Sherlock And Anagrams
+Count Triplets (UNFINISHED)
+Frequency Queries
 
 # Topics:
 ## Algorithms:
@@ -35,6 +37,7 @@ Sherlock And Anagrams
 - Ransom Note: defaultdict, counting
 - Two Strings: sets...?
 - Sherlock And Anagrams: dictionaries, counting, tuples/sorted, anagrams
+- Frequency Queries: dictionaries, reverse lookup!!!
 
 ## Modulus:
 - Non-Divisible Sets
