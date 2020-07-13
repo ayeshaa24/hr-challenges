@@ -11,6 +11,7 @@ Fair Rations
 Happy Ladybugs
 Ransom Note
 Two Strings
+Fibonacci Numbers
 
 ## Medium:
 Non-Divisible Sets
@@ -20,6 +21,7 @@ The Time In Words
 Sherlock And Anagrams
 Count Triplets (UNFINISHED)
 Frequency Queries
+Davis' Staircase
 
 # Topics:
 ## Algorithms:
@@ -38,6 +40,10 @@ Frequency Queries
 - Two Strings: sets...?
 - Sherlock And Anagrams: dictionaries, counting, tuples/sorted, anagrams
 - Frequency Queries: dictionaries, reverse lookup!!!
+
+## Interview: Recursion
+- Fibonacci Numbers
+- Davis' Staircase: recursion, 'cache', linear recurrences, matrices (??)
 
 ## Modulus:
 - Non-Divisible Sets
