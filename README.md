@@ -22,6 +22,7 @@ Sherlock And Anagrams
 Count Triplets (UNFINISHED)
 Frequency Queries
 Davis' Staircase
+Recursive Digit Sum
 
 # Topics:
 ## Algorithms:
@@ -44,6 +45,7 @@ Davis' Staircase
 ## Interview: Recursion
 - Fibonacci Numbers
 - Davis' Staircase: recursion, 'cache', linear recurrences, matrices (??)
+- Recursive Digit Sum: recursion...fiddly 0_o memory errors...
 
 ## Modulus:
 - Non-Divisible Sets
