@@ -12,6 +12,7 @@ Happy Ladybugs
 Ransom Note
 Two Strings
 Fibonacci Numbers
+Making Anagrams
 
 ## Medium:
 Non-Divisible Sets
@@ -45,7 +46,10 @@ Recursive Digit Sum
 ## Interview: Recursion
 - Fibonacci Numbers
 - Davis' Staircase: recursion, 'cache', linear recurrences, matrices (??)
-- Recursive Digit Sum: recursion...fiddly 0_o memory errors...
+- Recursive Digit Sum: recursion...fiddly 0_o memory errors
+
+## String Manipulation
+- Making Anagrams: dictionaries/counting
 
 ## Modulus:
 - Non-Divisible Sets
