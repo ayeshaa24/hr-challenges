@@ -13,6 +13,7 @@ Ransom Note
 Two Strings
 Fibonacci Numbers
 Making Anagrams
+Alternating Characters
 
 ## Medium:
 Non-Divisible Sets
@@ -50,6 +51,7 @@ Recursive Digit Sum
 
 ## String Manipulation
 - Making Anagrams: dictionaries/counting
+- Alternating Characters: counting
 
 ## Modulus:
 - Non-Divisible Sets
