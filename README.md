@@ -25,6 +25,7 @@ Count Triplets (UNFINISHED)
 Frequency Queries
 Davis' Staircase
 Recursive Digit Sum
+Sherlock and The Valid String
 
 # Topics:
 ## Algorithms:
@@ -52,6 +53,7 @@ Recursive Digit Sum
 ## String Manipulation
 - Making Anagrams: dictionaries/counting
 - Alternating Characters: counting
+- Sherlock and The Valid String: counter, min, max
 
 ## Modulus:
 - Non-Divisible Sets
