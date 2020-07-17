@@ -26,6 +26,7 @@ Frequency Queries
 Davis' Staircase
 Recursive Digit Sum
 Sherlock and The Valid String
+Special String Again
 
 # Topics:
 ## Algorithms:
@@ -54,7 +55,11 @@ Sherlock and The Valid String
 - Making Anagrams: dictionaries/counting
 - Alternating Characters: counting
 - Sherlock and The Valid String: counter, min, max
+- Special String Again: regex, +/- lookahead, capture groups, triangle numbers
 
 ## Modulus:
 - Non-Divisible Sets
 - Fair Rations: even/odd
+
+## Regex:
+- Special String Again: lookahead, capture groups
