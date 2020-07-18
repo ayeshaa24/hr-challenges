@@ -27,6 +27,7 @@ Davis' Staircase
 Recursive Digit Sum
 Sherlock and The Valid String
 Special String Again
+Common Child
 
 # Topics:
 ## Algorithms:
@@ -56,6 +57,7 @@ Special String Again
 - Alternating Characters: counting
 - Sherlock and The Valid String: counter, min, max
 - Special String Again: regex, +/- lookahead, capture groups, triangle numbers
+- Common Child: longest common subsequence...
 
 ## Modulus:
 - Non-Divisible Sets
