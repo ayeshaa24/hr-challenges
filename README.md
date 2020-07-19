@@ -14,6 +14,7 @@ Two Strings
 Fibonacci Numbers
 Making Anagrams
 Alternating Characters
+Bubble Sort
 
 ## Medium:
 Non-Divisible Sets
@@ -52,12 +53,15 @@ Common Child
 - Davis' Staircase: recursion, 'cache', linear recurrences, matrices (??)
 - Recursive Digit Sum: recursion...fiddly 0_o memory errors
 
-## String Manipulation
+## Interview: String Manipulation
 - Making Anagrams: dictionaries/counting
 - Alternating Characters: counting
 - Sherlock and The Valid String: counter, min, max
 - Special String Again: regex, +/- lookahead, capture groups, triangle numbers
 - Common Child: longest common subsequence...
+
+## Interview: Sorting
+- Bubble Sort
 
 ## Modulus:
 - Non-Divisible Sets
