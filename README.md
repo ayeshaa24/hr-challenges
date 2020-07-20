@@ -15,6 +15,7 @@ Fibonacci Numbers
 Making Anagrams
 Alternating Characters
 Bubble Sort
+Mark and Toys
 
 ## Medium:
 Non-Divisible Sets
@@ -62,6 +63,7 @@ Common Child
 
 ## Interview: Sorting
 - Bubble Sort
+- Mark and Toys: sort function, counting
 
 ## Modulus:
 - Non-Divisible Sets
