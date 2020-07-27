@@ -16,6 +16,7 @@ Making Anagrams
 Alternating Characters
 Bubble Sort
 Mark and Toys
+Caesar Cipher
 
 ## Medium:
 Non-Divisible Sets
@@ -42,6 +43,7 @@ Common Child
 - Lisa's workbook: loops, counting
 - Flatland Space Stations: counting
 - Happy Ladybugs: counting, checking order
+- Caesar Cipher: ciphers, ord, chr
 
 ## Interview: Dictionaries
 - Ransom Note: defaultdict, counting
