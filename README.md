@@ -17,6 +17,7 @@ Alternating Characters
 Bubble Sort
 Mark and Toys
 Caesar Cipher
+Minimum Absolute Difference In An Array
 
 ## Medium:
 Non-Divisible Sets
@@ -66,6 +67,11 @@ Common Child
 ## Interview: Sorting
 - Bubble Sort
 - Mark and Toys: sort function, counting
+
+## Interview: Greedy Algorithms
+An algorithm that follows the approach of making the logically optimal choice
+at each stage. https://en.wikipedia.org/wiki/Greedy_algorithm
+- Minimum Absolute Difference In An Array: sorting
 
 ## Modulus:
 - Non-Divisible Sets
