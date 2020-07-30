@@ -33,6 +33,7 @@ Recursive Digit Sum
 Sherlock and The Valid String
 Special String Again
 Common Child
+Greedy Florist
 
 # Topics:
 ## Algorithms:
@@ -74,6 +75,7 @@ An algorithm that follows the approach of making the logically optimal choice
 at each stage. https://en.wikipedia.org/wiki/Greedy_algorithm
 - Minimum Absolute Difference In An Array: sorting
 - Luck Balance: sorting
+- Greedy Florist: sorting, integer division
 
 ## Modulus:
 - Non-Divisible Sets
