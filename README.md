@@ -34,6 +34,7 @@ Sherlock and The Valid String
 Special String Again
 Common Child
 Greedy Florist
+Max Min
 
 # Topics:
 ## Algorithms:
@@ -76,6 +77,7 @@ at each stage. https://en.wikipedia.org/wiki/Greedy_algorithm
 - Minimum Absolute Difference In An Array: sorting
 - Luck Balance: sorting
 - Greedy Florist: sorting, integer division
+- Max Min: sorting
 
 ## Modulus:
 - Non-Divisible Sets
