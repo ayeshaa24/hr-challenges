@@ -35,6 +35,7 @@ Special String Again
 Common Child
 Greedy Florist
 Max Min
+Fraudulent Activity Notification
 
 # Topics:
 ## Algorithms:
@@ -70,6 +71,7 @@ Max Min
 ## Interview: Sorting
 - Bubble Sort
 - Mark and Toys: sort function, counting
+- Fraudulent Activity Notification: INCOMPLETE
 
 ## Interview: Greedy Algorithms
 An algorithm that follows the approach of making the logically optimal choice
