@@ -1,107 +1,80 @@
-#!/bin/python3
-
-import math
-import os
-import random
-import re
-import sys
-
-# Complete the activityNotifications function below.
 def activityNotifications(expenditure, d):
     n = 0
 
-    # current set being looked at
-    current = expenditure[:d]
+    current = [expenditure[0]] + expenditure[:d-1]
+    # (Repeats index 0 for the sake of the loop)
 
-    # initial sort
-    current.sort()
+    count = [0 for i in range(max(expenditure)+1)]
 
-    # initial check
-    # (e.g. if d = 5, initial check is on 6th day )
-    if d % 2 == 0:
-        median = (expenditure[d//2]+expenditure[(d//2)-1]) / 2
-        if expenditure[d] >= median*2:
-            n += 1
-    else:
-        if expenditure[d] >= current[d//2]*2:
-            n += 1
-    # note day '5' is with 0 index (technically its 6th day)
+    for i in current:
+        count[i] += 1
+    # Step 1 of counting sort (counting)
+    # (Uses counting sort but seperates the processes
+    # so the above process is not repeated each time)
 
-    # starts on d+1, as dth day has already been checked
-    for i in range(d+1, len(expenditure)):
-        # i is the current day
-        # so exp[i] is the current transaction
+    #d += 1
+    # Makes life easier when working with the other arrays later
 
-        current.remove(expenditure[i-(d+1)])
-        # have to remove d+1 days ago
-
-        new = expenditure[i-1]
-        # have to add yesterday's, not today's
-
-        # PUTTING NEW IN CORRECT PLACE
-        # too slow to sort each time
-        # e.g. current.append(new), current.sort()
+    for x in range(d, len(expenditure)):
+        old = current.pop(0)
+        new = expenditure[x-1]
+        current.append(new)
+        # Adds and removes from the current queue
 
 
-        # linear insertion
-        # still too slow
-        # for j in range(d-1):
-        #     if current[j] > new:
-        #         current.insert(j, new)
-        #         break
-        #     if j == d-2:
-        #         current.append(new)
+        count[old] -= 1
+        count[new] += 1
+        # Updates current count
 
-        # https://www.geeksforgeeks.org/binary-insertion-sort/
-        start = 0
-        end = d - 2
-        while (True):
-        # we need to distinugish whether we should insert
-        # before or after the left boundary.
-        # imagine [0] is the last step of the binary search
-        # and we need to decide where to insert -1
-            if start == end:
-                if expenditure[start] > new:
-                    current.insert(start, new)
-                    break
-                    #return start # e.g. if in middle of two
-                else:
-                    current.insert(start + 1, new)
-                    break
-                    #return start+1 # e.g. if at the end...??
+        acc_count = list(count)
+        # Makes a second count for the accumulating process
 
-            # this occurs if we are moving beyond left's boundary
-            # meaning the left boundary is the least position to
-            # find a number greater than new
-            if start > end:
-                current.insert(start, new)
-                break
-                #return start
+        for i in range(1, len(count)):
+            acc_count[i] += acc_count[i-1]
+        # Step 2 of counting sort (accumulating)
+        # ^ creates a histogram sort of
 
-            middle = (start+end)//2
 
-            if expenditure[middle] < new:
-                start = middle + 1
-            elif expenditure[middle] > new:
-                end = middle - 1
-            else:
-                current.insert(middle, new)
-                break
-                #return middle
+        # Note: Step 3 of counting sort has been ignored
+        # for the sake of timing, we will not sort
+        # Instead, we look for the median in the count array
 
         if d % 2 == 0:
-            median = (expenditure[d//2]+expenditure[(d//2)-1]) / 2
-            if expenditure[i] >= median*2:
+        # Switched around as d was incremented
+        # so even d are, at this point, odd
+            for i in range(len(count)):
+                # Looking for the frequency bucket with the median
+                # The index is then the median
+                if acc_count[i] >= math.ceil(d/2):
+                    # e.g. If d = 6, we are looking for the 3rd item
+                    # in what would be the sorted list, from the buckets
+                    # instead of from an actual list (for timing)
+                    left = i
+                    break
+            for i in range(left, len(count)):
+                if acc_count[i] >= math.ceil(d/2) + 1:
+                    # and also the 4th item
+                    right = i
+                    break
+            median = (left + right)
+            if expenditure[x] >= median:
                 n += 1
         else:
-            if expenditure[i] >= current[d//2]*2:
+            for i in range(len(count)):
+                if acc_count[i] >= math.ceil(d/2):
+                    # Need to round d/2 up
+                    # e.g. if d = 5, the 3rd thing is the median
+                    # (not the 2nd)
+                    #  So we are looking for the 'histogram' 'bucket'
+                    # that has the third item
+                    median = i
+                    break
+            if expenditure[x] >= median*2:
                 n += 1
 
-    return n
+    return(n)
 
 if __name__ == '__main__':
-    fptr = open(os.environ['OUTPUT_PATH'], 'w')
-
     nd = input().split()
 
     n = int(nd[0])
@@ -112,6 +85,4 @@ if __name__ == '__main__':
 
     result = activityNotifications(expenditure, d)
 
-    fptr.write(str(result) + '\n')
-
-    fptr.close()
+    print(result)
