@@ -71,7 +71,7 @@ Fraudulent Activity Notification
 ## Interview: Sorting
 - Bubble Sort
 - Mark and Toys: sort function, counting
-- Fraudulent Activity Notification: INCOMPLETE
+- Fraudulent Activity Notification: counting sort (sort of), queue
 
 ## Interview: Greedy Algorithms
 An algorithm that follows the approach of making the logically optimal choice
