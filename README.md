@@ -36,6 +36,7 @@ Common Child
 Greedy Florist
 Max Min
 Fraudulent Activity Notification
+Ice Cream Parlour
 
 # Topics:
 ## Algorithms:
@@ -80,6 +81,9 @@ at each stage. https://en.wikipedia.org/wiki/Greedy_algorithm
 - Luck Balance: sorting
 - Greedy Florist: sorting, integer division
 - Max Min: sorting
+
+## Interview: Hash Tables (aka dictionaries)
+- Ice Cream Parlour: dictionary, two sum https://leetcode.com/articles/two-sum/
 
 ## Modulus:
 - Non-Divisible Sets
