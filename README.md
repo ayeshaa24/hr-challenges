@@ -37,6 +37,7 @@ Greedy Florist
 Max Min
 Fraudulent Activity Notification
 Ice Cream Parlour
+Pairs
 
 # Topics:
 ## Algorithms:
@@ -82,8 +83,9 @@ at each stage. https://en.wikipedia.org/wiki/Greedy_algorithm
 - Greedy Florist: sorting, integer division
 - Max Min: sorting
 
-## Interview: Hash Tables (aka dictionaries)
+## Interview: Search
 - Ice Cream Parlour: dictionary, two sum https://leetcode.com/articles/two-sum/
+- Pairs: counter, alt has set
 
 ## Modulus:
 - Non-Divisible Sets
