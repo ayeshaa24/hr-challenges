@@ -19,6 +19,8 @@ Mark and Toys
 Caesar Cipher
 Minimum Absolute Difference In An Array
 Luck Balance
+Height of a Binary Tree
+Lowest Common Ancestor
 
 ## Medium:
 Non-Divisible Sets
@@ -85,7 +87,11 @@ at each stage. https://en.wikipedia.org/wiki/Greedy_algorithm
 
 ## Interview: Search
 - Ice Cream Parlour: dictionary, two sum https://leetcode.com/articles/two-sum/
-- Pairs: counter, alt has set
+- Pairs: counter, alt has set and set intersection tho
+
+## Interview: Trees
+- Height of a Binary Tree: max, recursion
+- Lowest Common Ancestor: recursion/while loop, BST, comparison, min, max
 
 ## Modulus:
 - Non-Divisible Sets
