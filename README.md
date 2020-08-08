@@ -40,6 +40,8 @@ Max Min
 Fraudulent Activity Notification
 Ice Cream Parlour
 Pairs
+Huffman Decoding
+Triple Sum
 
 # Topics:
 ## Algorithms:
@@ -77,6 +79,7 @@ Pairs
 - Mark and Toys: sort function, counting
 - Fraudulent Activity Notification: counting sort (sort of), queue
 
+
 ## Interview: Greedy Algorithms
 An algorithm that follows the approach of making the logically optimal choice
 at each stage. https://en.wikipedia.org/wiki/Greedy_algorithm
@@ -88,10 +91,12 @@ at each stage. https://en.wikipedia.org/wiki/Greedy_algorithm
 ## Interview: Search
 - Ice Cream Parlour: dictionary, two sum https://leetcode.com/articles/two-sum/
 - Pairs: counter, alt has set and set intersection tho
+- Triple Sum: sorting, counters and while loops, that logic tho...
 
 ## Interview: Trees
 - Height of a Binary Tree: max, recursion
 - Lowest Common Ancestor: recursion/while loop, BST, comparison, min, max
+- Huffman Decoding
 
 ## Modulus:
 - Non-Divisible Sets
