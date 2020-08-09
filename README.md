@@ -42,6 +42,7 @@ Ice Cream Parlour
 Pairs
 Huffman Decoding
 Triple Sum
+Minimum Time Required
 
 # Topics:
 ## Algorithms:
@@ -92,6 +93,7 @@ at each stage. https://en.wikipedia.org/wiki/Greedy_algorithm
 - Ice Cream Parlour: dictionary, two sum https://leetcode.com/articles/two-sum/
 - Pairs: counter, alt has set and set intersection tho
 - Triple Sum: sorting, counters and while loops, that logic tho...
+- Minimum Time Required: binary search sort of, counter, ceil
 
 ## Interview: Trees
 - Height of a Binary Tree: max, recursion
