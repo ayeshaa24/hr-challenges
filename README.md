@@ -43,6 +43,7 @@ Pairs
 Huffman Decoding
 Triple Sum
 Minimum Time Required
+Balanced Brackets
 
 # Topics:
 ## Algorithms:
@@ -99,6 +100,9 @@ at each stage. https://en.wikipedia.org/wiki/Greedy_algorithm
 - Height of a Binary Tree: max, recursion
 - Lowest Common Ancestor: recursion/while loop, BST, comparison, min, max
 - Huffman Decoding
+
+## Interview: Stacks and Queues
+- Balanced Brackets: stack, creating dict using list comprehension and zip
 
 ## Modulus:
 - Non-Divisible Sets
