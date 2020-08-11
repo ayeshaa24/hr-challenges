@@ -44,6 +44,7 @@ Huffman Decoding
 Triple Sum
 Minimum Time Required
 Balanced Brackets
+A Tale of Two Stacks
 
 # Topics:
 ## Algorithms:
@@ -103,6 +104,7 @@ at each stage. https://en.wikipedia.org/wiki/Greedy_algorithm
 
 ## Interview: Stacks and Queues
 - Balanced Brackets: stack, creating dict using list comprehension and zip
+- A Tale of Two Stacks: two stacks to make a queue cos why not, -1 indexing
 
 ## Modulus:
 - Non-Divisible Sets
