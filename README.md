@@ -21,6 +21,7 @@ Minimum Absolute Difference In An Array
 Luck Balance
 Height of a Binary Tree
 Lowest Common Ancestor
+Cavity Map
 
 ## Medium:
 Non-Divisible Sets
