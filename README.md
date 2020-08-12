@@ -59,6 +59,7 @@ A Tale of Two Stacks
 - Flatland Space Stations: counting
 - Happy Ladybugs: counting, checking order
 - Caesar Cipher: ciphers, ord, chr
+- Cavity Map: treating arrays as grids, if statements
 
 ## Interview: Dictionaries
 - Ransom Note: defaultdict, counting
