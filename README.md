@@ -47,6 +47,9 @@ Minimum Time Required
 Balanced Brackets
 A Tale of Two Stacks
 
+## Hard:
+BFS: Shortest Reach In A Graph
+
 # Topics:
 ## Algorithms:
 - The Grid Search: *slicing*
@@ -108,9 +111,16 @@ at each stage. https://en.wikipedia.org/wiki/Greedy_algorithm
 - Balanced Brackets: stack, creating dict using list comprehension and zip
 - A Tale of Two Stacks: two stacks to make a queue cos why not, -1 indexing
 
+## Interview:
+- Shortest Reach In A Graph: Breadth first search, classes
+
 ## Modulus:
 - Non-Divisible Sets
 - Fair Rations: even/odd
 
 ## Regex:
 - Special String Again: lookahead, capture groups
+
+## Classes:
+- Trees generally?
+- BFS: Shortest Reach In A Graph
