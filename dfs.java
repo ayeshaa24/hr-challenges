@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-class bfsGraph {
+class dfsGraph {
   private HashMap<Integer, Node> nodeLookup = new HashMap<Integer, Node>();
 
   class Node {
@@ -31,40 +31,36 @@ class bfsGraph {
   }
 
   public Boolean checkPath(int s, int d) {
-    return bfs(getNode(s), getNode(d));
-  }
-
-  private Boolean bfs(Node s, Node d) {
-    LinkedList<Node> nextToVisit = new LinkedList<Node>();
     HashSet<Integer> visited = new HashSet<Integer>();
 
-    nextToVisit.add(s);
+    return dfs(getNode(s), getNode(d), visited);
+  }
 
-    while (!nextToVisit.isEmpty()) {
-      Node current = nextToVisit.poll();
+  private Boolean dfs(Node s, Node d, HashSet visited) {
+    if (visited.contains(s.value)) {
+      return false;
+    }
 
-      if (visited.contains(current.value)) {
-        continue;
-      }
+    if (s == d) {
+      return true;
+    }
 
-      if (current == d) {
+    visited.add(s.value);
+
+    for (Node n: s.adjacent) {
+      if (dfs(n, d, visited)) {
         return true;
-      }
-
-      visited.add(current.value);
-
-      for (Node n: current.adjacent) {
-        nextToVisit.add(n);
       }
     }
 
     return false;
   }
+
 }
 
-public class bfs {
+public class dfs {
   public static void main(String[] args) {
-    bfsGraph graph = new bfsGraph();
+    dfsGraph graph = new dfsGraph();
     graph.addNode(1);
     graph.addNode(2);
     graph.addNode(3);
@@ -73,6 +69,6 @@ public class bfs {
     graph.connectNodes(1, 2);
     graph.connectNodes(1, 3);
     graph.connectNodes(3, 4);
-    System.out.println(graph.checkPath(1, 4));
+    System.out.println(graph.checkPath(1, 5));
   }
 }

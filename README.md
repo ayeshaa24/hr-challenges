@@ -49,8 +49,12 @@ A Tale of Two Stacks
 
 ## Hard:
 BFS: Shortest Reach In A Graph
+DFS: Connected Cell In A Grid
 
 # Topics:
+## Actual algorithms:
+- Graph Theory: BFS (Breadth First Search), DFS (Depth First Search)
+
 ## Algorithms:
 - The Grid Search: *slicing*
 - Cut The Sticks: slicing, sorting, counting
@@ -112,7 +116,8 @@ at each stage. https://en.wikipedia.org/wiki/Greedy_algorithm
 - A Tale of Two Stacks: two stacks to make a queue cos why not, -1 indexing
 
 ## Interview:
-- Shortest Reach In A Graph: Breadth first search, classes
+- Shortest Reach In A Graph: BFS, classes
+- Connected Cell In A Grid: DFS, class, dictionary, try/except, recursion
 
 ## Modulus:
 - Non-Divisible Sets
@@ -124,3 +129,7 @@ at each stage. https://en.wikipedia.org/wiki/Greedy_algorithm
 ## Classes:
 - Trees generally?
 - BFS: Shortest Reach In A Graph
+- DFS: Connected Cell In A Grid
+
+## Recursion:
+- Connected Cell In A Grid
