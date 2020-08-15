@@ -46,6 +46,7 @@ Triple Sum
 Minimum Time Required
 Balanced Brackets
 A Tale of Two Stacks
+Find The Nearest Clone
 
 ## Hard:
 BFS: Shortest Reach In A Graph
@@ -115,9 +116,10 @@ at each stage. https://en.wikipedia.org/wiki/Greedy_algorithm
 - Balanced Brackets: stack, creating dict using list comprehension and zip
 - A Tale of Two Stacks: two stacks to make a queue cos why not, -1 indexing
 
-## Interview:
+## Interview: Graphs:
 - Shortest Reach In A Graph: BFS, classes
 - Connected Cell In A Grid: DFS, class, dictionary, try/except, recursion
+- Find The Nearest Clone: BFS/DFS...? classes
 
 ## Modulus:
 - Non-Divisible Sets
