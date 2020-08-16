@@ -47,6 +47,7 @@ Minimum Time Required
 Balanced Brackets
 A Tale of Two Stacks
 Find The Nearest Clone
+Max Array Sum
 
 ## Hard:
 BFS: Shortest Reach In A Graph
@@ -120,6 +121,9 @@ at each stage. https://en.wikipedia.org/wiki/Greedy_algorithm
 - Shortest Reach In A Graph: BFS, classes
 - Connected Cell In A Grid: DFS, class, dictionary, try/except, recursion
 - Find The Nearest Clone: BFS/DFS...? classes
+
+## Interview: Dynamic Programming
+- Max Array Sum: dynamic programming, max, non-adjacent
 
 ## Modulus:
 - Non-Divisible Sets
