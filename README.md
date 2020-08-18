@@ -48,6 +48,7 @@ Balanced Brackets
 A Tale of Two Stacks
 Find The Nearest Clone
 Max Array Sum
+Abbreviation
 
 ## Hard:
 BFS: Shortest Reach In A Graph
@@ -124,6 +125,7 @@ at each stage. https://en.wikipedia.org/wiki/Greedy_algorithm
 
 ## Interview: Dynamic Programming
 - Max Array Sum: dynamic programming, max, non-adjacent
+- Abbreviation: dynamic programming!!!!
 
 ## Modulus:
 - Non-Divisible Sets

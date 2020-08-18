@@ -24,9 +24,13 @@ def maxSubsetSum(arr):
     # 2) the current number (so the subset only contains the current number)
     # 3) the current number + the number two behind (so the subset contains the current number and the number behind (which itself is the sum of the max subset so far))
     # max so far is assigned to the current position, and this continues
+
+    # note: max so far = a[i-1] so...
     for i in range(2, len(arr)):
-        max_so_far = max(max_so_far, arr[i], arr[i]+arr[i-2])
+        # max_so_far = max(max_so_far, arr[i], arr[i]+arr[i-2])
+        max_so_far = max(arr[i-1], arr[i], arr[i]+arr[i-2])
         arr[i] = max_so_far
+    print(arr)
     return max_so_far
 
 
