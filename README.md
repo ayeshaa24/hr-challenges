@@ -49,6 +49,7 @@ A Tale of Two Stacks
 Find The Nearest Clone
 Max Array Sum
 Abbreviation
+Minimum Swaps 2
 
 ## Hard:
 BFS: Shortest Reach In A Graph
@@ -70,6 +71,9 @@ DFS: Connected Cell In A Grid
 - Happy Ladybugs: counting, checking order
 - Caesar Cipher: ciphers, ord, chr
 - Cavity Map: treating arrays as grids, if statements
+
+## Interview: arrays
+- Minimum Swaps 2: lookup table, sorted array, swapping
 
 ## Interview: Dictionaries
 - Ransom Note: defaultdict, counting
