@@ -50,6 +50,7 @@ Find The Nearest Clone
 Max Array Sum
 Abbreviation
 Minimum Swaps 2
+Castle On The Grid
 
 ## Hard:
 BFS: Shortest Reach In A Graph
@@ -121,6 +122,7 @@ at each stage. https://en.wikipedia.org/wiki/Greedy_algorithm
 ## Interview: Stacks and Queues
 - Balanced Brackets: stack, creating dict using list comprehension and zip
 - A Tale of Two Stacks: two stacks to make a queue cos why not, -1 indexing
+- Castle On The Grid: BFS, grid
 
 ## Interview: Graphs:
 - Shortest Reach In A Graph: BFS, classes
