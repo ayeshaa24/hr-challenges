@@ -22,6 +22,7 @@ Luck Balance
 Height of a Binary Tree
 Lowest Common Ancestor
 Cavity Map
+CamelCase
 
 ## Medium:
 Non-Divisible Sets
@@ -72,6 +73,7 @@ DFS: Connected Cell In A Grid
 - Happy Ladybugs: counting, checking order
 - Caesar Cipher: ciphers, ord, chr
 - Cavity Map: treating arrays as grids, if statements
+- CamelCase: regex, len, alt: map, lambda, sum
 
 ## Interview: arrays
 - Minimum Swaps 2: lookup table, sorted array, swapping
