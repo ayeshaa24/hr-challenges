@@ -24,6 +24,7 @@ Lowest Common Ancestor
 Cavity Map
 CamelCase
 Insert A Node At A Specific Position In A Linked List
+Detect A Cycle
 
 ## Medium:
 Non-Divisible Sets
@@ -138,6 +139,7 @@ at each stage. https://en.wikipedia.org/wiki/Greedy_algorithm
 
 ## Interview: Linked list
 - Insert A Node At A Specific Position In A Linked List: looping, logic
+- Detect A Cycle: two pointer solution, constraints solution, set solution
 
 ## Modulus:
 - Non-Divisible Sets
