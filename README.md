@@ -25,6 +25,7 @@ Cavity Map
 CamelCase
 Insert A Node At A Specific Position In A Linked List
 Detect A Cycle
+Insertion Sort - Part 1
 
 ## Medium:
 Non-Divisible Sets
