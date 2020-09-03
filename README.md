@@ -26,6 +26,8 @@ CamelCase
 Insert A Node At A Specific Position In A Linked List
 Detect A Cycle
 Insertion Sort - Part 1
+Insertion Sort - Part 2
+Correctness and the Loop Invariant
 
 ## Medium:
 Non-Divisible Sets
