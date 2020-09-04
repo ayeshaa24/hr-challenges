@@ -28,6 +28,7 @@ Detect A Cycle
 Insertion Sort - Part 1
 Insertion Sort - Part 2
 Correctness and the Loop Invariant
+Running Time of Algorithms
 
 ## Medium:
 Non-Divisible Sets
@@ -79,6 +80,10 @@ DFS: Connected Cell In A Grid
 - Caesar Cipher: ciphers, ord, chr
 - Cavity Map: treating arrays as grids, if statements
 - CamelCase: regex, len, alt: map, lambda, sum
+- Insertion Sort - Part 1
+- Insertion Sort - Part 2
+- Correctness and the Loop Invariant
+- Running Time of Algorithms
 
 ## Interview: arrays
 - Minimum Swaps 2: lookup table, sorted array, swapping
