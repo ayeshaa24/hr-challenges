@@ -29,6 +29,7 @@ Insertion Sort - Part 1
 Insertion Sort - Part 2
 Correctness and the Loop Invariant
 Running Time of Algorithms
+Counting Sort 1
 
 ## Medium:
 Non-Divisible Sets
@@ -84,6 +85,7 @@ DFS: Connected Cell In A Grid
 - Insertion Sort - Part 2
 - Correctness and the Loop Invariant
 - Running Time of Algorithms
+- Counting Sort 1
 
 ## Interview: arrays
 - Minimum Swaps 2: lookup table, sorted array, swapping
