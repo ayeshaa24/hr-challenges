@@ -12,11 +12,13 @@ def countingSort(arr):
     for i in arr:
         counter[i] += 1
 
-    ans = []
-    for i in range(len(counter)):
-        ans.extend([i]*counter[i])
+    # ans = []
+    # for i in range(len(counter)):
+    #     ans.extend([i]*counter[i])
 
-    return ans
+    # return ans
+
+    return [i for i in range(len(counter)) for _ in range(counter[i])]
 
 if __name__ == '__main__':
     fptr = open(os.environ['OUTPUT_PATH'], 'w')

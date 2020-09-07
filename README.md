@@ -30,6 +30,7 @@ Insertion Sort - Part 2
 Correctness and the Loop Invariant
 Running Time of Algorithms
 Counting Sort 1
+Counting Sort 2
 
 ## Medium:
 Non-Divisible Sets
