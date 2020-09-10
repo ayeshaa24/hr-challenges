@@ -32,6 +32,7 @@ Running Time of Algorithms
 Counting Sort 1
 Counting Sort 2
 Super Reduced String
+Strong Password
 
 ## Medium:
 Non-Divisible Sets
@@ -89,6 +90,7 @@ DFS: Connected Cell In A Grid
 - Running Time of Algorithms
 - Counting Sort 1
 - Super Reduced String: while loops, slicing, concatenation
+- Strong Password: regex search
 
 ## Interview: arrays
 - Minimum Swaps 2: lookup table, sorted array, swapping
@@ -160,6 +162,7 @@ at each stage. https://en.wikipedia.org/wiki/Greedy_algorithm
 
 ## Regex:
 - Special String Again: lookahead, capture groups
+- Strong Password: search
 
 ## Classes:
 - Trees generally?
