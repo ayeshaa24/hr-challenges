@@ -34,6 +34,8 @@ Counting Sort 2
 Super Reduced String
 Strong Password
 Mars Exploration
+Gemstones
+Beautiful Binary String
 
 ## Medium:
 Non-Divisible Sets
@@ -93,6 +95,8 @@ DFS: Connected Cell In A Grid
 - Super Reduced String: while loops, slicing, concatenation
 - Strong Password: regex search
 - Mars Exploration: sum, slicing (alt: sum, zip)
+- Gemstones: sets, intersection or just looping through and checking if in
+- Beautiful Binary String: while, slicing
 
 ## Interview: arrays
 - Minimum Swaps 2: lookup table, sorted array, swapping
