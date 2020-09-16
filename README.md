@@ -38,6 +38,7 @@ Gemstones
 Beautiful Binary String
 Inserting A Node Into A Sorted Doubly Linked List
 Reverse A Doubly Linked List
+Find Merge Point Of Two Lists
 
 ## Medium:
 Non-Divisible Sets
@@ -165,6 +166,7 @@ at each stage. https://en.wikipedia.org/wiki/Greedy_algorithm
 - Detect A Cycle: two pointer solution, constraints solution, set solution
 - Inserting A Node Into A Sorted Doubly Linked List: while loop, logic
 - Reverse A Doubly Linked List: multiple assignment, swapping , while, logic
+- Find Merge Point Of Two Lists: four solutions lol, logic
 
 ## Modulus:
 - Non-Divisible Sets
