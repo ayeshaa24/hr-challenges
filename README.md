@@ -40,6 +40,7 @@ Inserting A Node Into A Sorted Doubly Linked List
 Reverse A Doubly Linked List
 Find Merge Point Of Two Lists
 Pangrams
+Weighted Uniform Strings
 
 ## Medium:
 Non-Divisible Sets
@@ -102,6 +103,7 @@ DFS: Connected Cell In A Grid
 - Gemstones: sets, intersection or just looping through and checking if in
 - Beautiful Binary String: while, slicing
 - Pangrams: sets, length of sets, sets subtraction
+- Weighted Uniform Strings: dict, ord, sequence
 
 ## Interview: arrays
 - Minimum Swaps 2: lookup table, sorted array, swapping
