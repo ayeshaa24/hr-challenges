@@ -41,6 +41,7 @@ Reverse A Doubly Linked List
 Find Merge Point Of Two Lists
 Pangrams
 Weighted Uniform Strings
+Funny String
 
 ## Medium:
 Non-Divisible Sets
@@ -104,6 +105,7 @@ DFS: Connected Cell In A Grid
 - Beautiful Binary String: while, slicing
 - Pangrams: sets, length of sets, sets subtraction
 - Weighted Uniform Strings: dict, ord, sequence
+- Funny String: slicing to reverse, abs, logic
 
 ## Interview: arrays
 - Minimum Swaps 2: lookup table, sorted array, swapping
