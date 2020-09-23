@@ -42,6 +42,7 @@ Find Merge Point Of Two Lists
 Pangrams
 Weighted Uniform Strings
 Funny String
+Hackerrank In A String
 
 ## Medium:
 Non-Divisible Sets
@@ -181,6 +182,7 @@ at each stage. https://en.wikipedia.org/wiki/Greedy_algorithm
 ## Regex:
 - Special String Again: lookahead, capture groups
 - Strong Password: search
+- Hackerrank In A String: match
 
 ## Classes:
 - Trees generally?
