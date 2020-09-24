@@ -72,6 +72,7 @@ Max Array Sum
 Abbreviation
 Minimum Swaps 2
 Castle On The Grid
+Connected Cell In A Grid Alternative Solution
 
 ## Hard:
 BFS: Shortest Reach In A Graph
@@ -162,6 +163,7 @@ at each stage. https://en.wikipedia.org/wiki/Greedy_algorithm
 ## Interview: Graphs:
 - Shortest Reach In A Graph: BFS, classes
 - Connected Cell In A Grid: DFS, class, dictionary, try/except, recursion
+- Connected Cell In A Grid Alternative Solution: without class!!
 - Find The Nearest Clone: BFS/DFS...? classes
 
 ## Interview: Dynamic Programming
