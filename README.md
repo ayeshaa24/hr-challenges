@@ -77,6 +77,7 @@ Connected Cell In A Grid Alternative Solution
 ## Hard:
 BFS: Shortest Reach In A Graph
 DFS: Connected Cell In A Grid
+Merge Sort: Counting Inversions
 
 # Topics:
 ## Actual algorithms:
@@ -134,6 +135,7 @@ DFS: Connected Cell In A Grid
 - Bubble Sort
 - Mark and Toys: sort function, counting
 - Fraudulent Activity Notification: counting sort (sort of), queue
+- Merge Sort: Counting Inversions: both global and not global version
 
 
 ## Interview: Greedy Algorithms
