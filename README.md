@@ -43,6 +43,7 @@ Pangrams
 Weighted Uniform Strings
 Funny String
 Hackerrank In A String
+Closest Numbers
 
 ## Medium:
 Non-Divisible Sets
@@ -109,6 +110,7 @@ Merge Sort: Counting Inversions
 - Pangrams: sets, length of sets, sets subtraction
 - Weighted Uniform Strings: dict, ord, sequence
 - Funny String: slicing to reverse, abs, logic
+- Closest Numbers: sorting to get the closest number
 
 ## Interview: arrays
 - Minimum Swaps 2: lookup table, sorted array, swapping
