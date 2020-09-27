@@ -44,6 +44,7 @@ Weighted Uniform Strings
 Funny String
 Hackerrank In A String
 Closest Numbers
+The Love Letter Mystery
 
 ## Medium:
 Non-Divisible Sets
@@ -111,6 +112,7 @@ Merge Sort: Counting Inversions
 - Weighted Uniform Strings: dict, ord, sequence
 - Funny String: slicing to reverse, abs, logic
 - Closest Numbers: sorting to get the closest number
+- The Love Letter Mystery: palindromes, ord, abs
 
 ## Interview: arrays
 - Minimum Swaps 2: lookup table, sorted array, swapping
