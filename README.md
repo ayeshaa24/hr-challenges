@@ -45,6 +45,7 @@ Funny String
 Hackerrank In A String
 Closest Numbers
 The Love Letter Mystery
+Game of Thrones - I
 
 ## Medium:
 Non-Divisible Sets
@@ -113,6 +114,7 @@ Merge Sort: Counting Inversions
 - Funny String: slicing to reverse, abs, logic
 - Closest Numbers: sorting to get the closest number
 - The Love Letter Mystery: palindromes, ord, abs
+- Game of Thrones - I: set, palindrome sort of, anagram sort of
 
 ## Interview: arrays
 - Minimum Swaps 2: lookup table, sorted array, swapping
